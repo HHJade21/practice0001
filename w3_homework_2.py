@@ -6,6 +6,7 @@ import math
 angle, distance = 0, 0
 
 ##메인 코드 부분##
+#2021041041 소프트웨어학과 홍은성#
 
 turtle.title('거북이 서로 만나게 하기')
 turtle.setup(width = 350, height = 350)
@@ -23,7 +24,7 @@ while True :
     turtle1.right(angle); turtle1.forward(distance)
     angle = random.randrange(0, 360)
     distance = random.randrange(30)
-    turtle2.right(angle); turtle2.forward(distance)
+    turtle2.left(angle); turtle2.forward(distance)
     angle = random.randrange(0, 360)
     distance = random.randrange(30)
     turtle3.right(angle); turtle3.forward(distance)
