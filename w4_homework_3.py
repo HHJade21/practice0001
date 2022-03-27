@@ -6,6 +6,7 @@ myt, tX, tY, tcolor, tsize, tshape, tsum = [None] * 7
 turtleList = []
 
 ##메인 코드 부분##
+#2021041041 소프트웨어학과 홍은성#
 if __name__ == "__main__" :
     turtle.title('거북이 리스트 정렬해서 선 그리기')
     turtle.setup(width = 450, height = 350)
